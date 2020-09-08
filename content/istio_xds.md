@@ -3,6 +3,7 @@
 xDS 是 sidecar(如 Envoy) 和 Pilot 之间传输的应用协议，实现基于 gRPC 
 
 ## xDS 工作模式
+
 每个XDS Service都有两种GRPC服务， Stream和Delta。 Stream用来更新全量数据，Delta用来更新增量数据
 
 每个 xDS API 可以单独配置 ApiConfigSource，指向对应的上游管理服务器的集群地址。每个 xDS 资源类型会启动一个独立的双向 gRPC 流，可能对应不同的管理服务器。API 交付方式采用最终一致性。

@@ -11,8 +11,9 @@
     
 * ### [第三章 源码选读](content/istio_sourcecode.md)
 	* [3.1 主要数据结构](content/istio_sourcecode.md#31-主要数据结构)
-	* [3.2 Pilot 初始化流程](content/istio_sourcecode.md#32-Pilot初始化流程)
-	* [3.3 Pilot 主运行流程](content/istio_sourcecode.md#33-Pilot主运行流程)
+	* [3.2 Pilot 主流程](content/istio_sourcecode.md#32-Pilot主运行流程)
+	* [3.3 Pilot 初始化流程](content/istio_sourcecode.md#33-Pilot初始化流程)
+
     
 * ### [第四章 xDS协议](content/istio_xds.md)    
 
