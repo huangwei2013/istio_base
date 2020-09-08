@@ -1,5 +1,8 @@
 # 第三章 源码选读
 
+略扫过 Istio 的代码，目前关注点都在 ./pilot 和 ./pkg 两个子目录上
+
+
 ## 3.1 主要数据结构
 
 ## 3.2 Pilot 主流程
@@ -22,3 +25,4 @@ Pilot的输出
 ![istio_pilot_workflow.png](content/img/istio_pilot_workflow.png)
 
 ## 3.3 Pilot 初始化流程
+
