@@ -22,7 +22,11 @@ Pilot的输出
 
 
 
-![istio_pilot_workflow.png](content/img/istio_pilot_workflow.png)
+![istio_pilot_workflow.png](./img/istio_pilot_workflow.png)
+
+
 
 ## 3.3 Pilot 初始化流程
 
+
+![istio_pilot-discovery_init.png](./img/istio_pilot-discovery_init.png)
